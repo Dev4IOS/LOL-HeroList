@@ -14,6 +14,8 @@
 		15A0873E1B32712D00CA8A2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15A0873D1B32712D00CA8A2F /* Images.xcassets */; };
 		15A087411B32712D00CA8A2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15A0873F1B32712D00CA8A2F /* LaunchScreen.xib */; };
 		15A0874D1B32712D00CA8A2F /* LOL_HeroListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0874C1B32712D00CA8A2F /* LOL_HeroListTests.m */; };
+		15A087591B32732900CA8A2F /* heros.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15A087581B32732900CA8A2F /* heros.plist */; };
+		15A0875C1B32747700CA8A2F /* Hero.m in Sources */ = {isa = PBXBuildFile; fileRef = 15A0875B1B32747700CA8A2F /* Hero.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,9 @@
 		15A087461B32712D00CA8A2F /* LOL-HeroListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LOL-HeroListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A0874B1B32712D00CA8A2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15A0874C1B32712D00CA8A2F /* LOL_HeroListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LOL_HeroListTests.m; sourceTree = "<group>"; };
+		15A087581B32732900CA8A2F /* heros.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = heros.plist; sourceTree = "<group>"; };
+		15A0875A1B32747700CA8A2F /* Hero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hero.h; sourceTree = "<group>"; };
+		15A0875B1B32747700CA8A2F /* Hero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Hero.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +86,8 @@
 		15A0872F1B32712D00CA8A2F /* LOL-HeroList */ = {
 			isa = PBXGroup;
 			children = (
+				15A0875A1B32747700CA8A2F /* Hero.h */,
+				15A0875B1B32747700CA8A2F /* Hero.m */,
 				15A087341B32712D00CA8A2F /* AppDelegate.h */,
 				15A087351B32712D00CA8A2F /* AppDelegate.m */,
 				15A087371B32712D00CA8A2F /* ViewController.h */,
@@ -96,6 +103,7 @@
 		15A087301B32712D00CA8A2F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				15A087581B32732900CA8A2F /* heros.plist */,
 				15A087311B32712D00CA8A2F /* Info.plist */,
 				15A087321B32712D00CA8A2F /* main.m */,
 			);
@@ -201,6 +209,7 @@
 			files = (
 				15A0873C1B32712D00CA8A2F /* Main.storyboard in Resources */,
 				15A087411B32712D00CA8A2F /* LaunchScreen.xib in Resources */,
+				15A087591B32732900CA8A2F /* heros.plist in Resources */,
 				15A0873E1B32712D00CA8A2F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +231,7 @@
 				15A087391B32712D00CA8A2F /* ViewController.m in Sources */,
 				15A087361B32712D00CA8A2F /* AppDelegate.m in Sources */,
 				15A087331B32712D00CA8A2F /* main.m in Sources */,
+				15A0875C1B32747700CA8A2F /* Hero.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
